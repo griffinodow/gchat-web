@@ -48,7 +48,7 @@ The goal of this project was to learn real-time communication with sockets throu
 ### Develop Locally
 
 ```bash
-# Serve with hot reload at localhost:5000
+# Serve with hot reload at localhost:3000
 npm run dev
 
 # Build for production
