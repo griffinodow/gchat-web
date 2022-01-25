@@ -1,0 +1,60 @@
+// Typography
+body
+  font-family: 'Roboto', Arial, sans-serif
+  font-size: 16px
+  font-weight: 400
+  -webkit-tap-highlight-color: transparent
+  color: var(--on-background)
+  background-color: var(--background)
+  height: 100vh
+  overflow: hidden
+
+h1
+  font-size: 64px
+  font-weight: 700
+
+h2, .heading
+  font-size: 48px
+  font-weight: 700
+
+h3
+  font-size: 24px
+  font-weight: 700
+
+// Default Sizing
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+html, body, #root
+  min-height: 100%
+  width: 100%
+  max-width: 100%
+input, select, textarea, button
+  font-family: inherit
+
+html, body
+  height: 100%
+
+.hidden
+  display: none
+
+.input, .button
+  width: 100%
+  padding: 12px
+  border-radius: 16px
+  border: none
+  font-size: 16px
+  background-color: var(--tertiary)
+  color: var(--on-tertiary)
+
+.input 
+  background-color: var(--tertiary)
+  color: var(--on-tertiary)
+
+.button
+  color: var(--on-primary)
+  background-color: var(--primary)
+  &:hover
+    cursor: pointer
+    background-color: var(--secondary)

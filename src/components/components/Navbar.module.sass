@@ -1,0 +1,26 @@
+.navbar
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  padding: 16px
+  background-color: var(--surface)
+  color: var(--on-surface)
+  height: 56px
+  border-bottom: 1px solid var(--tertiary)
+
+@media only screen and (min-width: 687px)
+  .mobile
+    display: none
+
+@media only screen and (max-width: 687px)
+  .desktop
+    display: none
+
+.logout
+  background: none
+  font-size: 16px
+  border: none
+  &:hover
+    cursor: pointer
+    color: var(--tertiary)

@@ -1,0 +1,25 @@
+.sidebar
+  width: 213px
+  background-color: var(--surface)
+  color: var(--on-surface)
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+.userbanner
+  padding: 8px
+
+.tabs
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+@media only screen and (max-width: 687px)
+  .sidebar
+    position: absolute
+    z-index: 1
+    height: calc(100vh - 56px)
+
+@media only screen and (max-width: 687px)
+  .side-hide
+    display: none

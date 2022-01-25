@@ -1,0 +1,43 @@
+// Colours
+body
+  --white: #FFFFFF
+  --off-white: #F7F7F7
+  --black: #000000
+  --off-black: #131313
+  --near-black: #1E1E1E
+  --smurf-blue: #00A3FF
+  --pastel-blue: #0072DB
+  --gray: #E1E1E1
+  --red: #FF0000
+
+// Themes
+@media (prefers-color-scheme: light)
+  body
+    --primary: var(--smurf-blue)
+    --on-primary: var(--white)
+    --secondary: var(--pastel-blue)
+    --on-secondary: var(--white)
+    --tertiary: var(--gray)
+    --on-tertiary: var(--black)
+    --error: var(--red)
+    --on-error: var(--white)
+    --surface: var(--white)
+    --on-surface: var(--black)
+    --background: var(--off-white)
+    --on-background: var(--black)
+
+// Themes
+@media (prefers-color-scheme: dark)
+  body
+    --primary: var(--smurf-blue)
+    --on-primary: var(--white)
+    --secondary: var(--pastel-blue)
+    --on-secondary: var(--white)
+    --tertiary: var(--gray)
+    --on-tertiary: var(--black)
+    --error: var(--red)
+    --on-error: var(--white)
+    --surface: var(--near-black)
+    --on-surface: var(--white)
+    --background: var(--off-black)
+    --on-background: var(--white)
