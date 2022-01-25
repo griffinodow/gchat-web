@@ -7,7 +7,7 @@
 
 <br />
 <div align="center">
-  <h3 align="center">G-Chat API</h3>
+  <h3 align="center">G-Chat Web</h3>
   <p align="center">
     G-Chat is a real time web chat
     <br />
