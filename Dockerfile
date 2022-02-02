@@ -13,3 +13,4 @@ RUN npm run build
 RUN apk del nodejs npm
 RUN mv ./dist/* /usr/share/nginx/html
 RUN rm -rf /srv/build
+EXPOSE 80
