@@ -22,7 +22,7 @@ export const SocketProvider = ({
   const [socket, setSocket] = useState<Socket>()
 
   useEffect(() => {
-    const newSocket = io('https://api.g-chat.griffindow.com/', { query: { username } })
+    const newSocket = io('https://api-g-chat.griffindow.com/', { query: { username } })
     setSocket(newSocket)
     return () => { newSocket.close() }
   }, [username])
